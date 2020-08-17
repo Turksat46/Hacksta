@@ -1,1 +1,1 @@
-# Information-Gathering-Tool-for-Instagram
+#Tool-for-Instagram
