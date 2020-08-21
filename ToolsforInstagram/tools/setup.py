@@ -27,6 +27,6 @@ os.system('cp ~/FreaksInstaBot/settings ~/FreaksInstaBot/Side')
 #Change test to this file!!!
 os.system('rm test')
 
-print('You now can run FreaksInstaBot.py!')
+print('You now can run it!')
 time.sleep(10)
 os.system('exit')
