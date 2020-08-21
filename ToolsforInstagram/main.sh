@@ -19,6 +19,12 @@ magenta='\e[35m'
 Blue='\033[0;34m'
 grey='\033[0;37m'
 
+dir=$(pwd)
+
+if [[ ! -d output ]]; then 
+	mkdir output
+fi
+
 trap ctrl_c INT
 ctrl_c() {
 echo ""
