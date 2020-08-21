@@ -25,7 +25,7 @@ os.system('webdrivermanager firefox --linkpath /usr/local/bin')
 os.system('clear')
 os.system('cp ~/FreaksInstaBot/settings ~/FreaksInstaBot/Side')
 #Change test to this file!!!
-os.system('rm test')
+os.system('rm setup.py')
 
 print('You now can run it!')
 time.sleep(10)
