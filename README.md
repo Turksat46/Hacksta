@@ -27,10 +27,6 @@ Use with care and do not blame us, if something went wrong. YOU are using Hackst
 - Download the Git
 - Open the .exe-file
 
-## Older Versions Pictures
-![Hacksta v0.0](https://user-images.githubusercontent.com/50042338/93686959-11efa300-faba-11ea-95a9-fe916d7dd11e.JPG)
-
-
 ## Memes
 
 ![cuteparrots](https://user-images.githubusercontent.com/50042338/93686977-3fd4e780-faba-11ea-9f21-993109a83b44.jpg)
