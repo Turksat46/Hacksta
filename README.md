@@ -1,5 +1,3 @@
-# Hacksta
-
 ![Hacksta Logo](https://user-images.githubusercontent.com/50042338/93688816-0bb4f300-fac9-11ea-983a-dc7e4efa3a19.jpg)
 
 ## Description
