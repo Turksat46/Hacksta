@@ -180,7 +180,6 @@ while [[ true ]]; do
 		check_follow=$(curl -s -L -b cookie.$user -d "ig_sig_key_version=4&signed_body=$hmac.$data" -s --user-agent 'User-Agent: "Instagram 10.26.0 Android (18/4.3; 320dpi; 720x1280; Xiaomi; HM 1SW; armani; qcom; en_US)"' -w "\n%{http_code}\n" -H "$header" "https://i.instagram.com/api/v1/friendships/create/$idss/" | grep -o '"following": true')
 		if [[ $check_follow == "" ]]; then
 			echo -e "$red FAIL! $farblos"
-      clear
       sleep 3
       bash $dir/Hacksta
 		else
@@ -201,7 +200,6 @@ while [[ true ]]; do
 		if [[ check_unfollow == "" ]]; then
 			echo -e "$red FAIL! $farblos"
 			sleep 4
-      clear
       bash $dir/Hacksta
 		else
 			echo -e "$green OK! $farblos"
